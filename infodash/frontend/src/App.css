@@ -1,0 +1,95 @@
+body {
+   background-size: cover;
+  /*-webkit-filter: blur(5px);*/
+  z-index: 0;
+}
+
+h2 {
+  color: #ECDFCC;
+}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #181C14;
+  display: flex;
+  justify-content: last baseline;
+}
+
+.contents1 {
+  /*text-align: center;*/
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  display: flex;
+/*  justify-content: center;*/
+}
+
+.contents2 {
+  /*text-align: center;*/
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.time-wrap {
+  padding: 10px;
+  display: flex;
+}
+
+.time {
+  display: inline-block;
+  background-color: #3C3D37;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.time p {
+  color: #ECDFCC;
+  margin: 0px;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card {
+  color: #ECDFCC;
+  display: inline-block;
+  background-color: #3C3D37;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card ul li {
+  /*list-style-image: url('https://www.anime-chiikawa.jp/images/loading/hachiware.png');*/
+}
+
+.weather {
+  text-align: center;
+}
+
+.city {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.condition {
+  font-size: 18px;
+}
+
+.box {
+  margin: 10px;
+}
