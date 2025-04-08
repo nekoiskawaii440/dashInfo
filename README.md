@@ -10,13 +10,17 @@
 ## 実行時の注意
 ・infodash/backend/app直下に.envファイルが必要。
   ファイルの中身は天気情報を取得するためのAPIキーの記述をする。
+  今回はOpenWeatherAPIを使用しています。
   例）
 ```.env:.env
 API_KEY=hogehogehoge
 ```
-・pythonの仮想環境に下記ライブラリが必要
-- yfinance
-- load_dotenv
-- BeautifulSoup
-- FastAPI
-- uvicorn
+## 実行手順
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+cd frontend
+npm install
+npm start
+```
